@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
+	"github.com/gklps/immudb/embedded/store"
 	"github.com/stretchr/testify/require"
 )
 

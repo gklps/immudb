@@ -28,8 +28,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/sql"
-	"github.com/codenotary/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/sql"
+	"github.com/gklps/immudb/embedded/store"
 
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/logger"

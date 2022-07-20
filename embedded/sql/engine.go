@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 var ErrNoSupported = errors.New("not supported")

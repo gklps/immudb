@@ -36,7 +36,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/remotestorage"
+	"github.com/gklps/immudb/embedded/remotestorage"
 )
 
 type Storage struct {

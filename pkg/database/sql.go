@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/sql"
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
+	"github.com/gklps/immudb/embedded/sql"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 var ErrSQLNotReady = errors.New("SQL catalog not yet replicated")

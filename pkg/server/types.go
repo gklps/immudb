@@ -25,10 +25,10 @@ import (
 
 	"github.com/codenotary/immudb/pkg/server/sessions"
 
-	"github.com/codenotary/immudb/embedded/remotestorage"
 	pgsqlsrv "github.com/codenotary/immudb/pkg/pgsql/server"
 	"github.com/codenotary/immudb/pkg/replication"
 	"github.com/codenotary/immudb/pkg/stream"
+	"github.com/gklps/immudb/embedded/remotestorage"
 
 	"github.com/codenotary/immudb/pkg/database"
 	"github.com/rs/xid"

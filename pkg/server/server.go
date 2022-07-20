@@ -31,10 +31,10 @@ import (
 
 	"github.com/codenotary/immudb/pkg/server/sessions"
 
-	"github.com/codenotary/immudb/embedded/remotestorage"
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/errors"
 	"github.com/codenotary/immudb/pkg/replication"
+	"github.com/gklps/immudb/embedded/remotestorage"
+	"github.com/gklps/immudb/embedded/store"
 
 	pgsqlsrv "github.com/codenotary/immudb/pkg/pgsql/server"
 

@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/htree"
-	"github.com/codenotary/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/htree"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 func main() {

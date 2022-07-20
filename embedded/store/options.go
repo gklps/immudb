@@ -20,10 +20,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/appendable/multiapp"
-	"github.com/codenotary/immudb/embedded/tbtree"
 	"github.com/codenotary/immudb/pkg/logger"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/appendable/multiapp"
+	"github.com/gklps/immudb/embedded/tbtree"
 )
 
 const DefaultMaxConcurrency = 30

@@ -19,8 +19,8 @@ import (
 	"crypto/sha256"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/htree"
-	"github.com/codenotary/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/htree"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 func TxToProto(tx *store.Tx) *Tx {

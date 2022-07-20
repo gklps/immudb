@@ -21,10 +21,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/codenotary/immudb/embedded/sql"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/database"
 	"github.com/codenotary/immudb/pkg/logger"
+	"github.com/gklps/immudb/embedded/sql"
 	"github.com/stretchr/testify/require"
 )
 

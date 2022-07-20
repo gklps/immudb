@@ -21,10 +21,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/sql"
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/database"
+	"github.com/gklps/immudb/embedded/sql"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 // work-around until a DBManager is in-place, taking care of all db-related stuff

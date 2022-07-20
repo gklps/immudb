@@ -19,8 +19,8 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 // ExecAll like Set it permits many insertions at once.

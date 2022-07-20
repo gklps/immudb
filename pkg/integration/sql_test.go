@@ -22,11 +22,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/codenotary/immudb/embedded/sql"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	ic "github.com/codenotary/immudb/pkg/client"
 	"github.com/codenotary/immudb/pkg/server"
 	"github.com/codenotary/immudb/pkg/server/servertest"
+	"github.com/gklps/immudb/embedded/sql"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

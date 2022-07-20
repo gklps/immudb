@@ -6,8 +6,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/remotestorage"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/remotestorage"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

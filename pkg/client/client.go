@@ -38,12 +38,12 @@ import (
 	"github.com/codenotary/immudb/pkg/signer"
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/auth"
 	"github.com/codenotary/immudb/pkg/client/cache"
 	"github.com/codenotary/immudb/pkg/client/state"
 	"github.com/codenotary/immudb/pkg/database"
 	"github.com/codenotary/immudb/pkg/logger"
+	"github.com/gklps/immudb/embedded/store"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/grpclog"
 

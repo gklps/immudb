@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/tbtree"
+	"github.com/gklps/immudb/embedded/tbtree"
 )
 
 type Snapshot struct {

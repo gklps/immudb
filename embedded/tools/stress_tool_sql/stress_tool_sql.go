@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/sql"
-	"github.com/codenotary/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/sql"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 type Entry struct {

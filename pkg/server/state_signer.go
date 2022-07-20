@@ -17,9 +17,9 @@ limitations under the License.
 package server
 
 import (
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/signer"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 type StateSigner interface {

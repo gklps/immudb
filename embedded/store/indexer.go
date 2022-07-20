@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/tbtree"
-	"github.com/codenotary/immudb/embedded/watchers"
+	"github.com/gklps/immudb/embedded/tbtree"
+	"github.com/gklps/immudb/embedded/watchers"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 )

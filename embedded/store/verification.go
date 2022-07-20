@@ -19,8 +19,8 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 
-	"github.com/codenotary/immudb/embedded/ahtree"
-	"github.com/codenotary/immudb/embedded/htree"
+	"github.com/gklps/immudb/embedded/ahtree"
+	"github.com/gklps/immudb/embedded/htree"
 )
 
 func VerifyInclusion(proof *htree.InclusionProof, entryDigest, root [sha256.Size]byte) bool {

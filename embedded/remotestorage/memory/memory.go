@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	remotestorage "github.com/codenotary/immudb/embedded/remotestorage"
+	remotestorage "github.com/gklps/immudb/embedded/remotestorage"
 )
 
 var (

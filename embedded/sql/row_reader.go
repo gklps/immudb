@@ -21,7 +21,7 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/codenotary/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 type RowReader interface {

@@ -18,7 +18,7 @@ package multiapp
 import (
 	"os"
 
-	"github.com/codenotary/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/appendable"
 )
 
 const DefaultFileSize = 1 << 26 // 64Mb

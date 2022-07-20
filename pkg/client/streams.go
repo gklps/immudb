@@ -26,10 +26,10 @@ import (
 
 	"github.com/codenotary/immudb/pkg/client/errors"
 
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/database"
 	"github.com/codenotary/immudb/pkg/stream"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 // StreamSet set an array of *stream.KeyValue in immudb streaming contents on a fixed size channel

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/codenotary/immudb/embedded/appendable/mocked"
+	"github.com/gklps/immudb/embedded/appendable/mocked"
 
 	"github.com/stretchr/testify/require"
 )

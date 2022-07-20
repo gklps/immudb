@@ -19,7 +19,7 @@ package sql
 import (
 	"fmt"
 
-	"github.com/codenotary/immudb/embedded/multierr"
+	"github.com/gklps/immudb/embedded/multierr"
 )
 
 type jointRowReader struct {

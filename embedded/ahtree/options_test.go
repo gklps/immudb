@@ -18,8 +18,8 @@ package ahtree
 import (
 	"testing"
 
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/appendable/multiapp"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/appendable/multiapp"
 	"github.com/stretchr/testify/require"
 )
 

@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/multierr"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/auth"
 	"github.com/codenotary/immudb/pkg/database"
 	"github.com/codenotary/immudb/pkg/logger"
 	"github.com/codenotary/immudb/pkg/server/sessions/internal/transactions"
+	"github.com/gklps/immudb/embedded/multierr"
 	"google.golang.org/grpc/metadata"
 )
 

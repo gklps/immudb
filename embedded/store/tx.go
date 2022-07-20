@@ -21,8 +21,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/htree"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/htree"
 )
 
 type Tx struct {

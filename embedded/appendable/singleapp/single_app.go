@@ -29,7 +29,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/codenotary/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/appendable"
 )
 
 var ErrorPathIsNotADirectory = errors.New("path is not a directory")

@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/codenotary/immudb/embedded/appendable/multiapp"
-	"github.com/codenotary/immudb/embedded/appendable/singleapp"
+	"github.com/gklps/immudb/embedded/appendable/multiapp"
+	"github.com/gklps/immudb/embedded/appendable/singleapp"
 	"github.com/stretchr/testify/require"
 )
 

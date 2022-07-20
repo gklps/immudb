@@ -30,11 +30,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/appendable/multiapp"
-	"github.com/codenotary/immudb/embedded/appendable/singleapp"
-	"github.com/codenotary/immudb/embedded/cache"
-	"github.com/codenotary/immudb/embedded/remotestorage"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/appendable/multiapp"
+	"github.com/gklps/immudb/embedded/appendable/singleapp"
+	"github.com/gklps/immudb/embedded/cache"
+	"github.com/gklps/immudb/embedded/remotestorage"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

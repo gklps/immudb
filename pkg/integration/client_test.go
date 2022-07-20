@@ -31,9 +31,9 @@ import (
 
 	"github.com/codenotary/immudb/pkg/fs"
 
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/database"
 	"github.com/codenotary/immudb/pkg/server/servertest"
+	"github.com/gklps/immudb/embedded/store"
 
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/auth"

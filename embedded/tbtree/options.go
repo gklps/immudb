@@ -20,9 +20,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/appendable/multiapp"
 	"github.com/codenotary/immudb/pkg/logger"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/appendable/multiapp"
 )
 
 const DefaultMaxNodeSize = 4096

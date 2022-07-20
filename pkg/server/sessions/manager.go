@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/sql"
 	"github.com/codenotary/immudb/pkg/auth"
 	"github.com/codenotary/immudb/pkg/database"
 	"github.com/codenotary/immudb/pkg/logger"
 	"github.com/codenotary/immudb/pkg/server/sessions/internal/transactions"
+	"github.com/gklps/immudb/embedded/sql"
 )
 
 const infinity = time.Duration(math.MaxInt64)

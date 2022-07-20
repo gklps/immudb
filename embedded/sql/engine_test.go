@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/store"
-	"github.com/codenotary/immudb/embedded/tbtree"
+	"github.com/gklps/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/tbtree"
 	"github.com/stretchr/testify/require"
 )
 

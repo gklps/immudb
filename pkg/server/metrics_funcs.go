@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 func (s *ImmuServer) metricFuncServerUptimeCounter() float64 {

@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 var ErrReferencedKeyCannotBeAReference = errors.New("referenced key cannot be a reference")

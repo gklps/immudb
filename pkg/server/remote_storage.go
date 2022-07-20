@@ -23,13 +23,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/appendable/multiapp"
-	"github.com/codenotary/immudb/embedded/appendable/remoteapp"
-	"github.com/codenotary/immudb/embedded/remotestorage"
-	"github.com/codenotary/immudb/embedded/remotestorage/s3"
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/errors"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/appendable/multiapp"
+	"github.com/gklps/immudb/embedded/appendable/remoteapp"
+	"github.com/gklps/immudb/embedded/remotestorage"
+	"github.com/gklps/immudb/embedded/remotestorage/s3"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 var (

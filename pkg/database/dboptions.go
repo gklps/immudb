@@ -16,7 +16,7 @@ limitations under the License.
 
 package database
 
-import "github.com/codenotary/immudb/embedded/store"
+import "github.com/gklps/immudb/embedded/store"
 
 //Options database instance options
 type Options struct {

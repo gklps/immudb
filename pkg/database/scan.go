@@ -18,8 +18,8 @@ package database
 import (
 	"fmt"
 
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 //Scan ...

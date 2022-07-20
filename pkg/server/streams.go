@@ -23,9 +23,9 @@ import (
 
 	"github.com/codenotary/immudb/pkg/errors"
 
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/stream"
+	"github.com/gklps/immudb/embedded/store"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"

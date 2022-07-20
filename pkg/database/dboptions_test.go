@@ -19,7 +19,7 @@ package database
 import (
 	"testing"
 
-	"github.com/codenotary/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/store"
 	"github.com/stretchr/testify/require"
 )
 

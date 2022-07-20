@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/codenotary/immudb/embedded/remotestorage"
-	"github.com/codenotary/immudb/embedded/remotestorage/memory"
+	"github.com/gklps/immudb/embedded/remotestorage"
+	"github.com/gklps/immudb/embedded/remotestorage/memory"
 	"github.com/stretchr/testify/require"
 )
 

@@ -29,7 +29,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/auth"
 	"github.com/codenotary/immudb/pkg/client"
@@ -38,6 +37,7 @@ import (
 	"github.com/codenotary/immudb/pkg/client/timestamp"
 	"github.com/codenotary/immudb/pkg/logger"
 	"github.com/codenotary/immudb/pkg/signer"
+	"github.com/gklps/immudb/embedded/store"
 	"github.com/golang/protobuf/ptypes/empty"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

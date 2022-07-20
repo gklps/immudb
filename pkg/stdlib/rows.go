@@ -27,8 +27,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/sql"
 	"github.com/codenotary/immudb/pkg/api/schema"
+	"github.com/gklps/immudb/embedded/sql"
 )
 
 type Rows struct {

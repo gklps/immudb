@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/codenotary/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/appendable"
 
 	"github.com/stretchr/testify/require"
 )

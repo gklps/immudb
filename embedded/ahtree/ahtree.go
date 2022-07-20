@@ -24,10 +24,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/appendable/multiapp"
-	"github.com/codenotary/immudb/embedded/cache"
-	"github.com/codenotary/immudb/embedded/multierr"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/appendable/multiapp"
+	"github.com/gklps/immudb/embedded/cache"
+	"github.com/gklps/immudb/embedded/multierr"
 )
 
 var ErrIllegalArguments = errors.New("illegal arguments")

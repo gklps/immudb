@@ -18,7 +18,7 @@ package schema
 import (
 	"time"
 
-	"github.com/codenotary/immudb/embedded/sql"
+	"github.com/gklps/immudb/embedded/sql"
 )
 
 func EncodeParams(params map[string]interface{}) ([]*NamedParam, error) {

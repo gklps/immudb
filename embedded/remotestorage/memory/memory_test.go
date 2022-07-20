@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/remotestorage"
+	"github.com/gklps/immudb/embedded/remotestorage"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

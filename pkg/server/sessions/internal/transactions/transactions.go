@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/codenotary/immudb/embedded/sql"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/database"
+	"github.com/gklps/immudb/embedded/sql"
 	"github.com/rs/xid"
 )
 

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 const (

@@ -30,12 +30,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/ahtree"
-	"github.com/codenotary/immudb/embedded/appendable"
-	"github.com/codenotary/immudb/embedded/appendable/mocked"
-	"github.com/codenotary/immudb/embedded/appendable/multiapp"
-	"github.com/codenotary/immudb/embedded/htree"
-	"github.com/codenotary/immudb/embedded/tbtree"
+	"github.com/gklps/immudb/embedded/ahtree"
+	"github.com/gklps/immudb/embedded/appendable"
+	"github.com/gklps/immudb/embedded/appendable/mocked"
+	"github.com/gklps/immudb/embedded/appendable/multiapp"
+	"github.com/gklps/immudb/embedded/htree"
+	"github.com/gklps/immudb/embedded/tbtree"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

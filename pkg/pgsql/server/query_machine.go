@@ -24,11 +24,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/codenotary/immudb/embedded/sql"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	pserr "github.com/codenotary/immudb/pkg/pgsql/errors"
 	bm "github.com/codenotary/immudb/pkg/pgsql/server/bmessages"
 	fm "github.com/codenotary/immudb/pkg/pgsql/server/fmessages"
+	"github.com/gklps/immudb/embedded/sql"
 )
 
 //QueriesMachine ...

@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/store"
-	"github.com/codenotary/immudb/embedded/tbtree"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/database"
+	"github.com/gklps/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/tbtree"
 )
 
 type dbOptions struct {

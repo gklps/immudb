@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/codenotary/immudb/embedded/sql"
+	"github.com/gklps/immudb/embedded/sql"
 )
 
 type SqlValue interface {

@@ -18,7 +18,7 @@ package sql
 import (
 	"fmt"
 
-	"github.com/codenotary/immudb/embedded/store"
+	"github.com/gklps/immudb/embedded/store"
 )
 
 type groupedRowReader struct {

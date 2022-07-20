@@ -19,8 +19,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/codenotary/immudb/embedded/store"
 	"github.com/codenotary/immudb/pkg/api/schema"
+	"github.com/gklps/immudb/embedded/store"
 	"github.com/golang/protobuf/ptypes/empty"
 )
 

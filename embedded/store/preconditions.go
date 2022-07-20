@@ -18,7 +18,7 @@ package store
 import (
 	"errors"
 
-	"github.com/codenotary/immudb/embedded/tbtree"
+	"github.com/gklps/immudb/embedded/tbtree"
 )
 
 type Precondition interface {

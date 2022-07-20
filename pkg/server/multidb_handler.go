@@ -19,9 +19,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/codenotary/immudb/embedded/sql"
 	"github.com/codenotary/immudb/pkg/api/schema"
 	"github.com/codenotary/immudb/pkg/auth"
+	"github.com/gklps/immudb/embedded/sql"
 )
 
 type multidbHandler struct {
